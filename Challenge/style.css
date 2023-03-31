@@ -4,3 +4,102 @@
 body {
     background-color: #18122B;
 }
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100vh;
+    height: 60vh;
+}
+.child {
+    margin: 10px auto auto auto;
+    border: #4b4168 0.5vh solid;
+    width: 85vh;
+    height: 50vh;
+    background-color: #393053;
+    cursor: url("cross_1.png") 15 15, auto;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.child:hover {
+    border: #6d6487 0.5vh solid;
+    box-shadow: 0px 0px 10px #6d6487;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#target {
+    visibility: hidden;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #c0b3f5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px #c0b3f5;
+    position: absolute;
+}
+#score {
+    font-family: 'Quantico';
+    margin: auto;
+    font-size: 3vh;
+    color: #baacbe;
+    float: left;
+}
+#mistake {
+    font-family: 'Quantico';
+    margin: auto;
+    font-size: 3vh;
+    color: #baacbe;
+}
+#timer {
+    font-family: 'Quantico';
+    margin: auto;
+    font-size: 3vh;
+    color: #baacbe;
+}
+#start {
+    font-family: 'Quantico';
+    width: 15%;
+    margin: 11.5% auto auto 14.5%;
+    border: #8173b8 2px solid;
+    text-align: center;
+    font-size: 3vh;
+    color: #baacbe;
+    background-color: #18122B;
+    transition: 0.5s;
+    position: absolute;
+}
+#start:hover {
+    cursor: pointer;
+    background-color: #2f264a;
+    border-radius: 10px;
+}
+img {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#cross_1 {
+    width: 3vh;
+    height: 3vh;
+}
+#cross_2 {
+    width: 3vh;
+    height: 3vh;
+}
+#cross_3 {
+    width: 1.5vh;
+    height: 1.5vh;
+}
+#cross_4 {
+    width: 1.5vh;
+    height: 1.5vh;
+}
