@@ -16,7 +16,6 @@ var start_restart = true;
 target.style.transform = `translate(${Math.random() * max_X}vh,${Math.random() * max_Y}vh)`;
 cross_1.addEventListener("click", function() {
     screen_field.style.cursor = `url("cross_1.png") 15 15, auto`;
-
 });
 cross_2.addEventListener("click", function() {
     screen_field.style.cursor = `url("cross_2.png") 15 15, auto`;

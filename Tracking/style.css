@@ -43,7 +43,7 @@ body {
     height: 5vh;
     border-radius: 100%;
     background-color: #c0b3f5;
-    transition: 0.5s;
+
     box-shadow: 0px 0px 25px #c0b3f5;
     position: absolute;
 }
